@@ -1,0 +1,119 @@
+body{
+	margin: 0;
+	color: #fff;
+	background: url(bg/bg-4.jpg) no-repeat;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+label{
+	font-family: sans-serif;
+}
+.bordered{
+	margin: auto;
+	margin-top: 60px;
+	width: 1080px;
+	height: 400px;
+	padding: 0 40px 40px 40px;
+	border: 2px solid white;
+	background: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+}
+table{
+	border-collapse: collapse;
+	border:1px solid white;
+	width: 100%;
+}
+td{
+	padding: 10px;
+	color: white;
+	border: none;
+	text-align: center;
+
+}
+.home{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+}
+.home:hover{
+	font-weight: 600;
+	text-decoration: underline;
+}
+img{
+	margin-top: 10px;
+	margin-bottom: 1rem;
+	width: 60px;
+	height: 60px;
+	margin-left: 10rem;
+}
+.border{
+	float: left;
+	margin-top: 2rem;
+}
+.bordered-2{
+	float: right;
+}
+.fortable{
+	width: 1060px;
+	height: 300px;
+	overflow: auto;
+	padding-top: 0;
+	padding: 10px;
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 3px;
+}
+.fortable::-webkit-scrollbar{
+	width: 9px;
+}
+.fortable::-webkit-scrollbar-track{
+	background: #f1f1f1; 
+	border-radius: 3px;
+}
+.fortable::-webkit-scrollbar-thumb{
+	background: #888;
+	border-radius: 3px;
+}
+.fortable::-webkit-scrollbar-thumb:hover{
+	background: #555; 
+}
+.edit{
+	text-decoration: none;
+	color: lightskyblue;
+}
+.del{
+	color: #fff;
+	background-color: red;
+	border: none;
+	padding: 5px 9px;
+	border-radius: 2px;
+	margin-left: 6px;
+}
+.del:hover{
+	cursor: pointer;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+.log-btn{
+	display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+.log-btn:hover{
+	font-weight: 600;
+	text-decoration: underline;
+}

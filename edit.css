@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+}
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 0;
+}
+label{
+    font-family: sans-serif;
+}
+section{
+    min-height: 100vh;
+    color: #fff;
+    background: url(bg/bg.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+select{
+    color: white;
+    border: none;
+    background: none;
+}
+option{
+    color: black;
+    background: transparent;
+}
+form input{
+    color: white;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.bordered{
+    margin: auto;
+    margin-top: 60px;
+    width: 600px;
+    height: 360px;
+    padding: 40px;
+    border: 2px solid white;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+}
+.btn{
+    width: 400px;
+    height: 30px;
+    color: black;
+    background-color: deepskyblue;
+    border: none;
+    text-align: center;
+    margin-left: 5rem;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #305EDA;
+}
+.back{
+    display: block;
+    width: 390px;
+    padding: 6px;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: darkgrey;
+}
+.back:hover{
+    color: white;
+    background-color: grey;
+}
+.center{
+    margin-left: 5rem;
+    text-align: center;
+}
+.side{
+    display: flex;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin-top: 7rem;
+    margin-left: 8rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+.nav input{
+    width: 100%;
+    color: black;
+    background: white;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.log-btn{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+.log-btn:hover{
+    font-weight: 600;
+    text-decoration: underline;
+}
